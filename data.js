@@ -20,9 +20,9 @@ function initializeData() {
                 comments: [{
                     author: 'Bob',
                     content: '真不错！我也经常去图书馆学习。',
-                    timestamp: '2023-10-27 14:30'
+                    timestamp: '2025-6-16 14:30'
                 }],
-                timestamp: '2023-10-27 14:00'
+                timestamp: '2025-6-16 14:00'
             },
             {
                 id: 2,
@@ -31,7 +31,7 @@ function initializeData() {
                 image: 'pic/default.png',
                 likes: 50,
                 comments: [],
-                timestamp: '2023-10-26 10:00'
+                timestamp: '2025-6-16 10:00'
             },
             {
                 id: 3,
@@ -40,7 +40,7 @@ function initializeData() {
                 image: '',
                 likes: 20,
                 comments: [],
-                timestamp: '2023-10-28 09:00'
+                timestamp: '2025-6-16 09:00'
             }
         ];
         localStorage.setItem('posts', JSON.stringify(defaultPosts));
